@@ -28,10 +28,31 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My stop condition, my attempt limit, my summary:
+# 1. In:User text input, repeatedly asked to type "yes".
+# 2. Process:Use while loop to keep prompting user.
+#   Count each attempt. Stop either when user enters "yes" OR when max attempts reached (safety limit).
+# 3. Out:A final summary message showing total number of tries, whether user succeeded or hit the attempt limit.
+# 4. My stop condition:normalized input equals "yes". 
+#    My attempt limit: 5 tries maximum.
+#    My summary: prints total attempts and tells user if they answered correctly or ran out of attempts.
 
 
 # Your code below
+
+i = 0
+while i < 5:
+    user_input = input("Please enter the word yes: ")
+    i = i + 1
+
+    cleaned_answer = user_input.strip().lower()
+
+    if cleaned_answer == "yes":
+        break
+
+print("Total attempts:", i)
+if cleaned_answer == "yes":
+    print("Success! You typed yes correctly.")
+else:
+    print("You have used all 5 attempts, program stopped.")
+
+

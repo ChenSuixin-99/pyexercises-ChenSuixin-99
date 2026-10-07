@@ -24,9 +24,9 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In:A list of names
+# 2. Process:Loop over every item in the list.
+# 3. Out:One printed line for each list item.
 # 4. What I compute for each item, and why it is worth showing:
 
 

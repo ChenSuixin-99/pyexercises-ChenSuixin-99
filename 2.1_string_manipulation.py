@@ -29,8 +29,8 @@ DELIVERABLE
 # 3. Out:Four modified versions of the original sentence, printed one after another.
 # 4. My four transformations, and when each is useful:
 #    upper(): Useful for making titles or verification codes.
-#    lower(): Useful when comparing text without worrying about capitalisation.
-#    strip(): Useful to clean extra spaces users accidentally type at start or end.
+#    lower(): Useful when comparing text without worrying about capitalisation
+#    strip(): Useful to clean extra spaces users accidentally type at start or end
 #    split(): Splits a string into a list, using spaces by default
 
 

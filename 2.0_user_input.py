@@ -40,4 +40,4 @@ print("The user's name is:", name)
 print("The user's age is:", age)
 
 
-print("The user's name is " + name + " and the user's age", age)
+print("The user's name is " + name + " and the user's age is", age)

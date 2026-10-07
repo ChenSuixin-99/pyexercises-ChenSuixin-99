@@ -55,5 +55,5 @@ print(list_of_numbers)
 
 list_of_numbers.pop()
 
-print("The list of numbers after removing th last item from the list")
+print("The list of numbers after removing the last item from the list")
 print(list_of_numbers)

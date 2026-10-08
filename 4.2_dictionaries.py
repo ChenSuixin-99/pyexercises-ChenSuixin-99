@@ -23,10 +23,13 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: A dictionary describing a marketing customer, with at least five key-value fields
+# 2. Process: Create the dictionary. Read and display it. Add one new field. Remove one field. Print all fields and values. Add error handling for accessing a non-existent key.
+# 3. Out: The original dictionary, dictionary after adding a new field, dictionary after removing one field, and the value of the removed field.
 # 4. My object, my five fields, and why those:
+#    The object is a customer profile for marketing analysis.
+#    The five fields are "name", "age", "city", "occupation", "email".
+#    These fields are useful because marketers need customer name, age, location, job and contact to build customer segments and run targeted campaigns.
 
 
 # Your code below

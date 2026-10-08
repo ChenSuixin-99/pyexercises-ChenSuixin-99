@@ -24,7 +24,7 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:Ask the user for a number N
+# 1. In:Ask the user for a number N.
 # 2. Process:Check each integer starting from 1 up to N. Use modulo % 2 to test odd/even.
 # 3. Out:One printed line per number, stating whether the number is odd or even.
 # 4. What happens on 0, on a negative number, on a very large number:

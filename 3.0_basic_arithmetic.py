@@ -24,10 +24,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: Two numeric values input by the user, converted to float
+# 2. Process: Read two numbers. Calculate addition, subtraction, multiplication. For division, check if the second number is zero. If not zero, compute division; if zero, skip division calculation and print warning message.
+# 3. Out: Print sum, difference, product. Print division result only when second number is not zero; otherwise print a zero warning message.
+# 4. What happens when the second number is zero, and why: The program will print a warning message instead of calculating division. Division by zero is mathematically undefined and causes an error in Python, so we add an if condition to avoid crashing.
 
 
 # Your code below

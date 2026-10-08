@@ -26,10 +26,12 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
+# 1. In: A manually created list with at least 8 numeric items, representing monthly marketing campaign budgets
+# 2. Process: Define the original list. Print the full list, select and print one single element. Sort the list. Calculate a computed value (total sum of all budget values).
+# 3. Out: The whole list, one chosen individual item, sorted version of list, and the total sum of all items in the list.
+# 4. What is your list about, and what did you compute from it? Why is that number interesting?
+#    My list stores monthly marketing campaign budgets. I computed the total sum of all budgets.
+#    This total is interesting because it shows the overall spending for the whole campaign period.
 
 
 # Your code below

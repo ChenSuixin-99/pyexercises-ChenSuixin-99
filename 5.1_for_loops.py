@@ -31,9 +31,9 @@ DELIVERABLE
 
 
 # Your code below
-names = ["A", "B", "C", "D", "E", "F"]
+names = ["Anna", "Lucas", "Marie", "Paul", "Chloe"]
 
-print("The third item in the list", names[2])
 
-for name in names:
-    print("Hello,"+ name +", How are you")
+for position, name in enumerate(names, start=1):
+    name_length = len(name)
+    print("Hello", name, "you are number", position, "on the list," " your name has", name_length, "letters.")

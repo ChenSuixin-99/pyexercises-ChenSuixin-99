@@ -77,5 +77,3 @@ for i in range(3):
 # Check the function with an empty list.
 # Returning 0 is acceptable because there are no budget entries.
 print("\nEmpty list total:", calculate_total_budget([]))
-
-

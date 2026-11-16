@@ -47,7 +47,7 @@ DELIVERABLE
 # Small functions make each condition easier to test independently.
 
 
-# Your code below6
+# Your code below
 def check(number):
     if number > 0:
         print("The number is positive")

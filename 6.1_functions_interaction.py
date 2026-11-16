@@ -29,9 +29,22 @@ DELIVERABLE
 """
 
 # 1. In:
+# An integer entered by the user.
+
 # 2. Process, function by function:
+# is_zero checks whether the number is zero.
+# is_positive checks whether the number is positive.
+# is_negative checks whether the number is negative.
+# is_even checks whether the number is divisible by 2.
+# detailed_number determines the sign and parity using the helper functions.
+
 # 3. Out:
+# Return a message describing the number's sign and parity.
+# Display the returned message on the screen.
+
 # 4. The question my fourth function answers:
+# Is the number positive, negative, or zero, and is it even or odd?
+# Small functions make each condition easier to test independently.
 
 
 # Your code below6

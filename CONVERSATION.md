@@ -88,3 +88,61 @@ show_operations()
 ```
 
 What placeholder in the f-string shows the result of the “not equal” comparison?
+---
+## 2026-11-16 23:33, in .
+
+**Me:** How to represent a set of permissions as bits, combine two of them, test whether a third is present, then add it and remove one.
+
+**Tutor:**
+
+Representing permissions as bits is called **bitmasking**.
+
+```python
+# Define permission bits
+READ = 1 << 0   # 0b0001
+WRITE = 1 << 1  # 0b0010
+EXEC = 1 << 2   # 0b0100
+DELETE = 1 << 3 # 0b1000
+
+# Combine two permissions
+user_permissions = READ | WRITE  # 0b0011
+
+# Test if a permission is present
+has_write = (user_permissions & WRITE) != 0  # True
+
+# Add a permission
+user_permissions |= EXEC  # 0b0111
+
+# Remove a permission
+user_permissions &= ~DELETE  # 0b0111 (no change if DELETE wasn't set)
+```
+
+Which bitwise operator combines two permissions?
+
+---
+## 2026-11-16 23:33, in .
+
+**Me:** How to represent a set of 
+permissions as bits, combine two of them, test whether a third is present, then add it and remove one.
+
+**Tutor:**
+
+Representing permissions as bits and working with them uses bitwise operators.
+
+```python
+# Define permission bits
+READ = 1 << 0   # 0001
+WRITE = 1 << 1  # 0010
+EXEC = 1 << 2   # 0100
+DELETE = 1 << 3 # 1000
+
+# Combine two permissions
+user_permissions = READ | WRITE  # 0011
+
+# Test if EXEC is present
+has_exec = (user_permissions & EXEC) != 0  # False
+
+# Add EXEC and remove WRITE
+user_permissions = (user_permissions | EXEC) & ~WRITE  # 0101
+```
+What is the value of `user_permissions` after the last operation?

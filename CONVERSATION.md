@@ -186,3 +186,27 @@ print("Result:", result)
 ```
 
 What function reads a string from the user and converts it to a float?
+
+---
+## 2026-11-17 00:01, in .
+
+**Me:** How can I ask the user to enter a first name and validate that it contains exactly one uppercase English letter followed by zero or more lowercase English letters? Please explain the regular expression and ask again if the input is invalid.
+
+**Tutor:**
+
+Validating a name with exactly one uppercase letter followed by zero or more lowercase letters.
+
+```python
+import re
+
+def validate_first_name():
+    while True:
+        name = input("Enter your first name: ")
+        # TODO: write a regex pattern that matches exactly one uppercase letter
+        # followed by zero or more lowercase letters
+        if re.fullmatch(r"TODO", name):
+            return name
+        print("Invalid name. Please start with one uppercase letter followed by lowercase letters.")
+```
+
+What does the pattern `r"[A-Z][a-z]*"` mean?
